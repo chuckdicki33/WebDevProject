@@ -1,0 +1,55 @@
+
+body{
+    background-color: rgb(38, 38, 39);
+}
+
+.common {
+    position: absolute;
+    /* background-color: antiquewhite; */
+    /* border: solid 2px black; */
+}
+
+.imgSize{
+    max-height: fit-content
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.leftMenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+}
+
+.mainBody {
+    top: 114px;
+    left: 114px;
+    bottom: 64px;
+    right: 114px;
+    padding: 50px;
+
+}
+
+.rightMenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 64px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    position:fixed;
+    text-align: center;
+
+}
